@@ -1,0 +1,140 @@
+/* Основные классы */
+.wrapper {
+    max-width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/place.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+div {
+    padding: 0;
+    margin: 0;
+}
+.p-top50 {
+    padding-top: 50px;
+}
+
+.center {
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column;
+    align-items: center;
+}
+
+.border {
+    border-radius: 5px;
+}
+
+.container {
+    background-color: #fff;
+    height: 100%;
+    padding: 25px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1877f2;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1877f2;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+    border: none;
+}
+.small-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #abb4be;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin: 3px;
+    border: none;
+
+}
+.button:hover {
+    background-color: #1361c5;
+}
+.form {
+    align-items: center;
+    padding: 5px;
+}
+.logo {
+    padding: 25px 50px;
+    margin: 25px 0;
+}
+.logo-inner {
+    width: 300px;
+    height: 300px;
+
+}
+.message-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* Локальные классы */
+.main {
+   margin: 10% 0;
+   padding: 50px; 
+}
+.description {
+    font-size: 20px;
+}
+
+input {
+    border-radius: 3px;
+    height: 25px;
+    
+}
+.input-field {
+    padding: 3px 0;
+}
+
+.register {
+    justify-content: space-around;
+}
+.login {
+    justify-content: space-around;
+}
+.callories {
+    text-align: center;
+}
+
+th, td {
+    border: silver 1px solid;
+    padding: 5px;
+    background-color: #fff;
+}
+th {
+    background-color: silver;
+}
+.btn-cell {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
